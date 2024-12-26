@@ -1,0 +1,32 @@
+insert into supply values 
+('BHN001','Bumbu Ayam Goreng','10','Pcs'),
+('BHN002','Bumbu Ayam Bakar','10','Pcs'),
+('BHN003','Bumbu Rendang','20','Pcs'),
+('BHN004','Bumbu Gulai Nangka','20','Pcs'),
+('BHN005','Bumbu Ikan Goreng','10','Pcs'),
+('BHN006','Bumbu Ikan Bakar','10','Pcs'),
+('BHN007','Bumbu Gulai Ikan Kakap','10','Pcs'),
+('BHN008','Ikan Kakap','10','Ekor'),
+('BHN009','Ikan Nila','20','Ekor'),
+('BHN010','Ayam','20','Potong'),
+('BHN011','Daging Sapi','20','Potong'),
+('BHN012','Nangka','20','Pcs'),
+('BHN013','Air','50','Lt'),
+('BHN014','Teh','10','Pcs'),
+('BHN015','Es Batu','20','Pcs'),
+('BHN016','Gula','20','Pcs'),
+('BHN017','Jeruk','10','Buah');
+
+
+insert into resep values 
+('RSP001','BHN001','Resep Ayam Goreng','Bumbu Ayam Goreng & Ayam'),
+('RSP002','BHN002','Resep Ayam Bakar','Bumbu Ayam Bakar & Ayam'),
+('RSP003','BHN003','Resep Rendang','Bumbu Rendang & Daging Sapi'),
+('RSP004','BHN004','Resep Gulai Nangka','Bumbu Gulai Nangka & Nangka'),
+('RSP005','BHN005','Resep Ikan Goreng','Bumbu Ikan Goreng & Ikan Nila'),
+('BHN006','BHN006','Resep Ikan Bakar','Bumbu Ikan Bakar & Ikan Nila'),
+('BHN007','BHN007','Resep Gulai Ikan Kakap','Bumbu Gulai Ikan Kakap & Ikan Kakap'),
+('BHN008','BHN014','Resep Teh Manis Es/Hangat','Air, Teh, & Es Batu'),
+('BHN009','BHN017','Resep Jeruk Es/Hangat','Air, Teh, & Es Batu')
+
+Ayam Goreng Bagian Dada/Sayap/Paha
